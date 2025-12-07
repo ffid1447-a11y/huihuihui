@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/vpa.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/vpa", "dest": "api/vpa.py" },
+    { "src": "/vnum", "dest": "api/vpa.py" }
+  ]
+}
