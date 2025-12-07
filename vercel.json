@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "routes": [
-    { "src": "/vpa", "dest": "api/vpa.py" },
-    { "src": "/vnum", "dest": "api/vpa.py" }
-  ]
-}
